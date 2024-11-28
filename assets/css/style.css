@@ -1,0 +1,39 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Moving Text Styling */
+.moving-text {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    animation: scrollText 10s linear infinite;
+    padding: 0 50px; /* Adds space around the text */
+}
+
+/* Animation */
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
