@@ -125,3 +125,78 @@ nav img {
     cursor: pointer;
     display: none;
 }
+
+.new h2{
+    text-align: center;
+    padding: 2rem 0 0;
+    font-size: var(--h1-font);
+}
+
+.newcontent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 2rem;
+    padding: 0 5% 0.5rem;
+    text-align: center;
+}
+
+.row:hover {
+    background-color: var(--main-color);
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 50%);
+}
+
+.row {
+    position: relative;
+    cursor: pointer;
+}
+
+.row img {
+    padding: 5% 5% 5%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.row h4 {
+    text-transform: uppercase;
+    font-weight: medium 200;
+    transition: all .50s ease;
+    font-size: var(--h5-font);
+}
+
+.row h5 {
+    font-size: var(--h5-font);
+}
+
+.btn {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn a{
+    color: var(--text-color);
+    font-size: var(--h5-font);
+}
+
+.btn a:hover {
+    color: var(--bg-color);
+}
+
+.show {
+    text-align: center;
+    font-weight: 600;
+    font-size: var(--h5-font);
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.show a{
+    color: var(--text-color);
+}
+
+.show a:hover {
+    color: var(--main-color);
+}
