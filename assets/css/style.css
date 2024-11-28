@@ -200,3 +200,8 @@ nav img {
 .show a:hover {
     color: var(--main-color);
 }
+
+ ./assets/img/blush.jpg {
+            max-width: 30%; /* Image width will be responsive */
+            max-height: 300px; /* Limits height to 300px */
+        }
