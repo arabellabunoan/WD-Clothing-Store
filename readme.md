@@ -63,18 +63,12 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Guiding Question with answers:
+- What is the project: The project is a clothing store that has recently launched and is selling hoodies.
+- Whats the purpose: The purpose of the site is for the buyers to acknowledge that a new hoodie store will be launching online.
+- What are key components: The key components to the site is the landing page, a page for frequently asked questions, the shop showing an overview of what is in store, and contacts which shows business contacts for further inquiries.
+- What technology used and how it is used: The technology used are sets of codes. HTML, CSS, and JAVASCRIPT. Altogether, this created a responsive site for the consumers to use as they browse the contents of the site.
 
-### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
 
 ### Technology
 <!-- TODO: List of Technology Used -->
