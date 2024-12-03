@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Shop</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+<body>
+    <!---free shipping---->
+    <header>
+        <nav class="header">
+            <div class="freeshipping">
+                <div class="freetext">
+                    <span>Nationwide Delivery. FREE shipping on all orders.&nbsp;&nbsp;&nbsp;</span>
+                </div>
+            </div>
+        </nav>
+        <nav>
+    </header>
+
+    <section class="navbar">
+        <nav  class="nav-item">
+            <ul class="sidebar">
+                <li onclick="hideSidebar()">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF">
+                            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="hideOnMobile"><a class="nav-item" href="">Home</a></li>
+                <li class="hideOnMobile"><a class="nav-item" href="">FAQs</a></li>
+                <li class="hideOnMobile"><a class="nav-item" href="">Shop</a></li>
+                <li class="hideOnMobile"><a class="nav-item" href="">Contacts</a></li>
+            </ul>
+            <ul>
+                <li onclick="showSidebar()">
+                    <a class="menu" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                        </svg>
+                    </a>
+                </li>
+        </nav>
+
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'flex';
+            }
+
+            function hideSidebar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'none';
+            }
+        </script>
+
+    </section>
+
+<section-body>
+    <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg></a></li>
+
+    <div>
+        <img class="img-blush" src="./img/blush.jpg" alt="">
+    </div>
+
+    <div class="text-body">
+        <h1>Blush</h1>
+
+        <h2>Embrace Elegance and Warmth!</h2>
+        <p>Step out in style with the Blush Jacket, your perfect companion for chilly days. Crafted with premium materials, this jacket offers unparalleled comfort and a chic look that turns heads. It's an affordable luxury that adds a touch of sophistication to any outfit. Don't miss out on this must-have addition to your wardrobe!
+        </p>
+
+    </div>
+</section-body>
+    
+<section class="footer">
+    <p>&copy; 2024 All rights reserved.</p> <p> 
+        <a href="">Terms of Service</a> | 
+        <a href="">Privacy Policy</a> | 
+        <a href="">Contact Us</a> 
+    </p> 
+</section>
+</body>
+</html>
